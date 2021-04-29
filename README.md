@@ -1,4 +1,4 @@
-# Java-Servlet-Marketanage
+# Java-Servlet-Marketmanage
 学习java的Servlet的产物
 
 1、关于JSP
