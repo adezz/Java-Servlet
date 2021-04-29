@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fastjson-1.2.61">
+    <CLASSES>
+      <root url="jar://D:/apache-tomcat-9.0.45/lib/fastjson-1.2.61.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
