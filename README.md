@@ -9,4 +9,4 @@
 7、JDBC  
 8、Dao层 Service层  
   
-![image](https://github.com/adezz/Java-Servlet/blob/master/pic/pic1.png)
+![image](https://github.com/adezz/Java-Servlet/blob/main/pic/pic1.png)
