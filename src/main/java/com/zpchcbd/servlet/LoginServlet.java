@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
         }
 
         if (user != null){
-            req.getSession().setAttribute(Constants.USERSESSION, user);
+            req.getSession().setAttribute(Constants.USER_SESSION, user);
             resp.sendRedirect( req.getContextPath() + "/jsp/frame.jsp");
         }else{
             req.setAttribute("error", "用户名或密码不正确");

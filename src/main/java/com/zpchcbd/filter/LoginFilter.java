@@ -17,7 +17,7 @@ public class LoginFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpServletRequest = (HttpServletRequest)request;
         HttpServletResponse httpServletResponse = (HttpServletResponse)response;
-        User user = (User) httpServletRequest.getSession().getAttribute(Constants.USERSESSION);
+        User user = (User) httpServletRequest.getSession().getAttribute(Constants.USER_SESSION);
         if (user == null){
             httpServletResponse.sendRedirect( httpServletRequest.getContextPath() + "/error.jsp");
         }else {

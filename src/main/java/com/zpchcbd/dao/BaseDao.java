@@ -54,8 +54,27 @@ public class BaseDao {
         for (int i = 0; i < params.length; i++) {
             preparedStatement.setObject(i + 1, params[i]);
         }
-        int dwUpdateRows = preparedStatement.executeUpdate();
-        return dwUpdateRows;
+        int UpdateRows = preparedStatement.executeUpdate();
+        return UpdateRows;
     }
 
+    // 增
+    public static int insert(Connection connection, String sql, Object[] params) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        for (int i = 0; i < params.length; i++) {
+            preparedStatement.setObject(i + 1, params[i]);
+        }
+        int insertRows = preparedStatement.executeUpdate();
+        return insertRows;
+    }
+
+    // 删
+    public static int delete(Connection connection, String sql, Object[] params) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        for (int i = 0; i < params.length; i++) {
+            preparedStatement.setObject(i + 1, params[i]);
+        }
+        int deleteRows = preparedStatement.executeUpdate();
+        return deleteRows;
+    }
 }
