@@ -7,4 +7,6 @@
 5、Maven  
 6、Servlet  
 7、JDBC  
-8、Dao层 Service层
+8、Dao层 Service层  
+  
+![image](https://github.com/adezz/Java-Servlet/blob/master/pic/pic1.png)
